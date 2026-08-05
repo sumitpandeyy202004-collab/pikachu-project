@@ -1,0 +1,101 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    padding: 20px;
+    font-family: "Poppins", sans-serif;
+}
+
+#MainBox {
+    background: linear-gradient(
+        90deg,
+        #F9BE08 0% 57%,
+        #FAE7B4 57% 100%
+    );
+    border-radius: 12px;
+    padding: 30px 30px;
+    height: 100%;
+    position: relative;
+    box-shadow: 0 15px 45px rgba(0, 0, 0, 0.20);
+    overflow: hidden;
+}
+
+#MainBox header img {
+    width: 150px;
+}
+
+#MainBox header i {
+    position: relative;
+    transform: translate(0px,-35px);
+    left: 1200px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+#MainBox main {
+    width: 350px;
+    position: relative;
+    top: 180px;
+}
+
+#MainBox main #MainDivFirst img {
+    opacity: 0.15;
+}
+
+#MainBox h3 {
+    letter-spacing: 4px;
+    font-size: 15px;
+}
+
+#MainBox main h1 {
+    font-size: 100px;
+}
+
+#MainBox main p {
+    font-size: 15px;
+    font-weight: lighter;
+    margin-bottom: 15px;
+}
+
+#MainBox main #MainDivSec img{
+    position: absolute;
+    top: -180px;
+    left: 590px;
+    width: 550px;
+    height: 550px;
+}
+
+#MainBox main #MainDivFirst hr{
+    width: 30px;
+    border: 1.6px solid black;
+    display: inline-block;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+
+#MainBox main #MainDivFirst span {
+    font-weight: bold;
+}
+
+#MainBox main section div{
+    height: 10px;
+    background-color: #F4B600;
+    width: 10px;
+    margin-bottom: 15px;
+    border-radius: 50%;
+    position: relative;
+    left: 1370px;
+    bottom: 550px;
+}   
+
+#MainBox main section .topDiv {
+    background-color: black;
+}
