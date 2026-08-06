@@ -20,16 +20,6 @@ A simple and responsive Pokémon-themed landing page built using **HTML** and **
 - Google Fonts (Poppins)
 - Font Awesome Icons
 
-## 📂 Project Structure
-
-project/
-│── index.html
-│── style.css
-│── Pikachu.png
-│── pngegg.png
-└── README.md
-
-
 ## 🚀 How to Run
 
 1. Download or clone the project.
